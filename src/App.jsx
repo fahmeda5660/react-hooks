@@ -7,6 +7,8 @@ import RefTutorial from './UseRef/RefTutorial'
 import LayoutEffectTutorial from './UseLayoutEffect/LayoutEffectTutorial'
 import ImperativeHandle from './UseImperativeHandle/ImperativeHandle'
 import ContextTutorial from './UseContext/ContextTutorial'
+import MemoTutorial from './UseMemo/MemoTutorial'
+import CallBackTutorial from './UseCallback/CallbackTutorial'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -23,7 +25,9 @@ function App() {
         {/* <RefTutorial></RefTutorial> */}
         {/* <LayoutEffectTutorial></LayoutEffectTutorial> */}
         {/* <ImperativeHandle></ImperativeHandle> */}
-        <ContextTutorial></ContextTutorial>
+        {/* <ContextTutorial></ContextTutorial> */}
+        {/* <MemoTutorial></MemoTutorial> */}
+        <CallBackTutorial></CallBackTutorial>
       </div>
     </>
   )
